@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>dbhelp</title>
+</head>
+<body>
+    <div>
+        @ViewBag.str
+
+
+        @foreach (var item in @ViewBag.strg)
+        {
+            <p>@item.name</p>
+        }
+    </div>
+</body>
+</html>
